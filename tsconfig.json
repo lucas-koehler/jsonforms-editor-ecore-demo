@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "outDir": "dist/ts-build"
+  },
+  "extends": "../../tsconfig.base",
+  "exclude":[
+    "node_modules"
+  ],
+  "files": [
+    "./src/index.ts"
+  ]
+}
